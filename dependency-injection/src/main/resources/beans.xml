@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<beans>
+    <bean id="person" class="org.wmy.di.testBean.Person">
+        <constructor-arg ref="dog"/>
+    </bean>
+
+    <bean id="dog" class="org.wmy.di.testBean.Dog" scope="singleton" lazy-init="true">
+        <constructor-arg type="string" value="旺财"/>
+        <constructor-arg type="int" value="123" />
+    </bean>
+</beans>
