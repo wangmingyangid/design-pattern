@@ -1,6 +1,6 @@
 package org.wmy.di.factory;
 
-import lombok.SneakyThrows;
+
 import org.wmy.di.bean.BeanDefinition;
 import org.wmy.di.bean.ConstructorArg;
 
